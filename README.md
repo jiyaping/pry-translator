@@ -5,8 +5,10 @@
 `gem install pry-translator`
 
 
-## Configure
+## Configure  
 
+open ~/.pryrc file, and add following snippet.
+    
     # for youdao translator configure
     Pry.config.translator = :youdao
     Pry.config.translator_keyfrom = KEYFROM
